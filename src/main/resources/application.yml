@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: prodtcu
+  datasource:
+    url: jdbc:postgresql://localhost:5432/prodtcu
+    username: postgres
+    password: password
+    driver-Class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
